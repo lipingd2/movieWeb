@@ -1,0 +1,31 @@
+hr {
+    border: solid rgba(255, 255, 255, 0.15) 3px;
+    margin: 0;
+    z-index: 10000;
+}
+.movielist {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+app-movie-item {
+    width: 18%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.popular-list {
+    text-align: right;
+    width: 30%;
+    margin-top: 200px;
+}
+.popular-list-container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height:800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

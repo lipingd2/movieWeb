@@ -1,0 +1,9 @@
+
+<div ngif="videos" class="player-container">
+  <youtube-player
+    [videoId]="key"
+    [width]="640"
+    [height]="360"
+  ></youtube-player>
+</div>
+<button mat-button (click)="onClose()">Close</button>
